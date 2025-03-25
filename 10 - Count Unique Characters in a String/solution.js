@@ -1,7 +1,7 @@
 function countUniqueCharacters(str) {
   // Your code here
-  const uniquChars = new Set(str);
-  return uniquChars.size;
+  const uniqueChars = new Set(str);
+  return uniqueChars.size;
 }
 
 // Test Cases
