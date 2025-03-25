@@ -4,9 +4,9 @@ def transform_array(arr):
 
     for i in range(n):
         if i % 2 == 0:
-            arr[i] = arr[i] * i
+            arr[i] *= i
         else:
-            arr[i] = arr[i] - i
+            arr[i] -= i
 
     return arr
 
