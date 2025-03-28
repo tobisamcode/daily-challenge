@@ -18,4 +18,4 @@ function flattenObject(obj) {
 
 
 // Test Cases
-console.log(flattenObject({ a: { b: { c: 1 }, d: 2 } }));
+console.log(flattenObject({ a: { b: { c: 1 }, d: 2 } })); // { a.b.c: 1, a.d: 2 }
