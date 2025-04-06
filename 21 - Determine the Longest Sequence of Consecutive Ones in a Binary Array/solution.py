@@ -16,3 +16,4 @@ def find_longest_sequence(nums):
 
 #   Test cases
 print(find_longest_sequence([1, 1, 0, 1, 1, 1]))
+
