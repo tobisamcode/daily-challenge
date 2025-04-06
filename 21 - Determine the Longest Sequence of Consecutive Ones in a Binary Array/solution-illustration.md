@@ -1,5 +1,3 @@
-<!-- ```markdown -->
-
 # Longest Sequence of Consecutive 1s
 
 ## Problem
