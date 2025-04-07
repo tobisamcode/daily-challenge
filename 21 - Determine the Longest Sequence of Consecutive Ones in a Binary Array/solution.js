@@ -6,9 +6,7 @@ function findLongestSequence(nums) {
   for (let num of nums) {
     if (num === 1) {
       count++;
-      if (count > max) {
-        max = count;
-      }
+      if (count > max) max = count;
     } else {
       count = 0;
     }
