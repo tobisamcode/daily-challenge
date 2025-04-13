@@ -15,7 +15,6 @@ def roman_to_int(roman):
         current_val = values[roman[i]]
         next_val = values[roman[i + 1]] if i + 1 < len(roman) else 0
 
-
         print(f"current_val: {current_val}, next_val: {next_val}")
 
         if next_val > current_val:
