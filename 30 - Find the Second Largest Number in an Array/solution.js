@@ -4,8 +4,7 @@ function findSecondLargest(arr) {
 
   for (let num of arr) {
     if (num > first) {
-      second = first;
-      first = num;
+      [second, first] = [first, num];
     } else if (num > second && num != first) {
       second = num;
     }
