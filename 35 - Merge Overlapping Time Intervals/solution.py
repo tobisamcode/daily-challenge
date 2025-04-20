@@ -11,8 +11,10 @@ def merge_intervals(intervals):
         current = intervals[i]
 
         if current[0] <= last[1]:
+            # Overlap detected, merge them
             last[1] = max(last[1], current[1])
         else:
+            # No overlap, add current interval
             merged.append(current)
 
     return merged
