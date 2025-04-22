@@ -4,6 +4,7 @@ Write a function that takes a deeply nested array of integers and returns a comp
 
 Example:
 
-```Input: [1, [2, [3, [4, 5], 6], 7], 8]
-Output: [1, 2, 3, 4, 5, 6, 7, 8]
+```js
+Input: [1, [2, [3, [4, 5], 6], 7], 8];
+Output: [1, 2, 3, 4, 5, 6, 7, 8];
 ```
