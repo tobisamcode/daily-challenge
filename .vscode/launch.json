@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "solution",
+            "request": "launch",
+            "mainClass": "solution",
+            "projectName": "daily-challenge_d29f3cad"
+        },
+        {
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
